@@ -5,8 +5,8 @@ Automatically check train ticket availability and send SMS reminder if availabil
 
 RemindMe uses couple of open source and/or free projects, API's to work properly
 
-  * [Mechanize] - Stateful programmatic web browsing in Python
-  * [Twilio] - Give your web and mobile apps the power to exchange messages of any variety, from chat to SMS.
+  * [Mechanize](https://github.com/python-mechanize/mechanize) - Stateful programmatic web browsing in Python
+  * [Twilio](https://www.twilio.com/) - Give your web and mobile apps the power to exchange messages of any variety, from chat to SMS.
 
 ### Setup
 
