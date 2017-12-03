@@ -3,11 +3,12 @@ import subprocess
 import mechanize
 from urllib2 import HTTPError
 from twilio.rest import Client
+import os
 
 # Your Account SID from twilio.com/console
-account_sid = "<replace_account_sid>"
+account_sid = os.environ['account_sid']
 # Your Auth Token from twilio.com/console
-auth_token  = "<replace_auth_token>"
+auth_token  = os.environ['auth_token']
 
 client = Client(account_sid, auth_token)
 
