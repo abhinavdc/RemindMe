@@ -2,6 +2,6 @@ language: python
 sudo: required
 python:
 - '2.7'
-install: sudo pip install -r requirements.txt
+install: sudo pip install -r requirements.txt --upgrade
 script:
 - python RemindMe.py
