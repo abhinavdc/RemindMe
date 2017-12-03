@@ -20,7 +20,7 @@ request = br.open("http://www.indianrail.gov.in/acc_avl.html")
 threshold = 50
 
 # List out day, month, train number, source and destination of trains
-trains = [["15","09","16629","KZK","CLT"],["22","09","16629","KZK","CLT"]]
+trains = [["15","12","16629","KZK","CLT"],["22","12","16629","KZK","CLT"]]
 
 i = 0
 
